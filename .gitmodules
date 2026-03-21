@@ -4,3 +4,6 @@
 [submodule "Web-Programming"]
 	path = Web-Programming
 	url = https://github.com/seowon2026/Web-Programming1.git
+[submodule "Web-Programming1"]
+	path = Web-Programming1
+	url = https://github.com/seowon2026/Web-Programming1.git
