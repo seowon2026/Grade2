@@ -24,6 +24,7 @@ Student find_student(Student s[], int n, char name[]);
 int main(void) {
     Student s[3], max;
     int i;
+    char name[20];
 
     for (i = 0; i < 3; i++) {
         printf("ID, name, score >> ");
@@ -37,16 +38,17 @@ int main(void) {
     max = Max_student(s, 3);
     printf("The max score student is : \n");
     print_student(max);
-    printf("찾을 학생이름을 입력 >> ");
+    
+    printf("\n찾을 학생이름을 입력 >> ");
     scanf("%s", name);
-    fin = find_student(s, 3, name);
+    Student fin = find_student(s, 3, name);
     print_student(fin);
 
     return 0;
 }
 
 void print_student(Student s) {
-    printf("ID = %d. Name = %s, Score = %lf\n", s.id, s.name, s.score);
+    printf("ID = %d, Name = %s, Score = %lf\n", s.id, s.name, s.score);
 }
 
 Student Max_student(Student s[], int n) {
