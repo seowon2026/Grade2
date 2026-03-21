@@ -7,3 +7,9 @@
 [submodule "Web-Programming1"]
 	path = Web-Programming1
 	url = https://github.com/seowon2026/Web-Programming1.git
+[submodule "Logic-Circuit"]
+	path = Logic-Circuit
+	url = https://github.com/seowon2026/Logic-Circuit.git
+[submodule "IoT-Basic-Experiment"]
+	path = IoT-Basic-Experiment
+	url = https://github.com/seowon2026/IoT-Basic-Experiment.git
