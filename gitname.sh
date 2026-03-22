@@ -2,9 +2,12 @@
 
 # [기존이름]=변경할이름
 declare -A folders=(
-    ["데이터구조"]="Date-Structure"
+    ["데이터구조"]="Data-Structure"
     ["웹프로그래밍1"]="Web-Programming1"
+    ["IoT기초실험"]="IoT-Basic-Experiment"
+    ["논리회로"]="Logic-Circuit"
 )
+
 
 for key in "${!folders[@]}"; do
     value="${folders[$key]}"
