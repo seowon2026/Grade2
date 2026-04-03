@@ -1,3 +1,5 @@
+bash gitname.sh
+
 cd ./Web-Programming1
 bash git.sh
 
@@ -12,3 +14,6 @@ bash git.sh
 
 cd ..
 bash git.sh
+
+
+bash gitname.sh
