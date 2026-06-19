@@ -10,3 +10,12 @@
 [submodule "IoT-Basic-Experiment"]
 	path = IoT-Basic-Experiment
 	url = https://github.com/seowon2026/IoT-Basic-Experiment.git
+[submodule "Algorithm"]
+	path = Algorithm
+	url = https://github.com/seowon2026/Algorithm.git
+[submodule "Return-Project"]
+	path = Return-Project
+	url = https://github.com/seowon2026/Return-Project.git
+[submodule "SU-Career-Coaching-II"]
+	path = SU-Career-Coaching-II
+	url = https://github.com/seowon2026/SU-Career-Coaching-II.git
